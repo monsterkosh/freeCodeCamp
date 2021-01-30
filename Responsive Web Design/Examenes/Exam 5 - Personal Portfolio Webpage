@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+
+
+  <head>
+    <meta charset="utf-8">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1″>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    <style media="screen">
+
+
+    @import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900,400italic,700italic,900italic);
+
+      body {
+          background-color: #fdf9fd;
+          color: #011a32;
+          font: 16px/1.25 'Raleway', sans-serif;
+      }
+
+      #welcome-section {
+          padding-top: 0px;
+          margin-top: 0px;
+          display: block;
+          height: 100vh;
+      }
+
+
+      #wrapper {
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 100%;
+          text-align: center;
+      }
+
+      #container {
+          display: flex;
+          flex-direction: column;
+          float: left;
+          justify-content: center;
+          min-height: 100vh;
+          padding: 1em;
+          width: 100%;
+      }
+
+      h1 {
+          font-size: 5em;
+          font-weight: 900;
+          line-height: 1;
+      }
+
+      h3 {
+        font-size: 24px;
+      }
+
+      #contenido {
+        text-align: center;
+      }
+
+      #navbar {
+        text-align: center;
+        font: 16px/1.25 'Raleway', sans-serif;
+        position: fixed;
+        width: 100%;
+      }
+
+      #habout_me {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+
+      #hprojects {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+
+      #hcontact {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+
+      #habout_me:hover {
+        color: #011a32;
+        font-size: 18px;
+      }
+
+      #hprojects:hover {
+        color: #011a32;
+        font-size: 18px;
+      }
+
+      #hcontact:hover {
+        color: #011a32;
+        font-size: 18px;
+      }
+
+      img {
+        filter: blur(1px); /* IE6-9 */
+        -webkit-filter: blur(1px); /* Google Chrome, Safari 6+ & Opera 15+ */
+          -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+          -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+          box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+          margin-bottom:20px;
+
+      }
+
+      img:hover {
+        filter: none; /* IE6-9 */
+        -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+      }
+
+
+        .natgeo {
+        color: black;
+        text-decoration: none;
+        background-position-y: -0%;
+        background-image: linear-gradient( white 50%, LightBlue 50%);
+        transition: background 500ms ease;
+        background-size: 2px;
+        background-size: auto 175%;
+
+      }
+
+      .pos {
+        width: 200px;
+        margin-left: 200px;
+      }
+
+        .natgeo:hover {
+        background-position-y: 100%;
+      }
+
+      .color  {
+        color: LightBlue;
+      }
+
+      .size {
+        font-size: 200px;
+      }
+
+      @media screen and (max-width: 767px) {
+        h1 {font-size: 20px;}
+        }
+
+        @media screen and (min-width: 767px) {
+        h1 {font-size: 40px;}
+
+        }
+
+
+    </style>
+
+
+    <title></title>
+  </head>
+  <body>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"> </script>
+
+    <section id="welcome-section">
+
+    <nav id="navbar">
+      <a id="habout_me" href="#about_me">About me</a>
+      <a id="hprojects" href="#projects">Projects</a>
+      <a id="hcontact" href="#contact">Contact</a>
+    </nav>
+
+    <header>
+      <div id="wrapper">
+        <div id="container">
+            <h1 class="color size">Hi,</h1><h1>I'm Kosh</h1>
+            <br>
+            <center>
+          <p class="natgeo pos">and I'm a web developer</p>
+        </center>
+        </div>
+    </div>
+    </header>
+
+    </section>
+
+
+    <section id="contenido">
+
+
+    <section id="about_me">
+      <h3>About me</h3>
+      <p>My name is Emiliano Kosh and I'm a 32 years old Argentinian guy who's passionate about <b>Web Developing</b>.</p>
+      <p>I started my carreer, first, by learning English on Youtube and random web sites I founded, and then I went on <b>freeCodeCamp.org</b> and <b>W3Schools</b> to learn the fundamentals of HTML and CSS, after that I took advance tutorials from <b>HTMLdog.com</b> and <b>Shay Howe</b> about HTML, CSS and Bootstrap.
+      </p>
+      <p>Now Im focused on learning everything I can about Javascript, React.js and other libraries, so I'm trying to take literaly <b>EVERY</b> free course I found.</p>
+      <p>My ultimate goal is to get a web developer job outside Argentina to travel and live in another country.</p>
+
+    </section>
+
+      <br style="line-height:250px;">
+
+    <section id="projects">
+      <h3 class="project-tile">Projects</h3>
+      <p>Here are some of the projects I made for <b>freeCodeCamp.org</b>:</p>
+      <br>
+
+
+
+      <div class="container">
+      	<div class="row">
+      		<div class="col-md-3 col-sm-4 col-xs-6">
+            <img class="img-responsive" src="tribute-page.png" target="_blank" href="https://codepen.io/monsterkosh/full/YzWjLLv" />
+              <a href="https://codepen.io/monsterkosh/full/YzWjLLv">tribute page</a>
+          </div>
+
+          <div class="col-md-3 col-sm-4 col-xs-6">
+            <img class="img-responsive" src="survey-page.png" target="_blank" href="https://codepen.io/monsterkosh/full/vYKbmZZ" />
+              <a href="https://codepen.io/monsterkosh/full/vYKbmZZ">Survey Form</a>
+          </div>
+          <div class="col-md-3 col-sm-4 col-xs-6">
+            <img class="img-responsive" src="product-page.png" target="_blank" href="https://codepen.io/monsterkosh/full/BazEwWR" />
+              <a href="https://codepen.io/monsterkosh/full/BazEwWR">Product Landing Page</a>
+          </div>
+          <div class="col-md-3 col-sm-4 col-xs-6">
+            <img class="img-responsive" src="documentation-page.png" target="_blank" href="https://codepen.io/monsterkosh/full/mdEYedm" />
+              <a href="https://codepen.io/monsterkosh/full/mdEYedm">Technical Documentation Page</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <br style="line-height:250px;">
+
+
+
+
+
+    <section id="contact" >
+      <h3>Contact</h3>
+      <ul>
+        <li><a id="profile-link" target="_blank" href="#">GitHub</a></li>
+        <li><a id="profile-link2" target="_blank" href="#">CodePen</a></li>
+      </ul>
+
+    </section>
+
+      <br style="line-height:250px;">
+
+    </section>
+
+    <footer>
+      <p>Website design by: <b class="natgeo">Emiliano Kosh</b> </p>
+    </footer>
+
+
+
+  </body>
+</html>

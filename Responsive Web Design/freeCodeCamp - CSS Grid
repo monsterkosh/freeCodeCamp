@@ -1,0 +1,93 @@
+CSS Grid
+
+It works by turning an HTML element into a grid container with rows and columns for you to place children elements where you want within the grid.
+
+  .container {
+    display:grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px, 50px;
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+        ( grid-gap: 5px, 10px;     // primero row, despues gap
+  }
+
+          px;
+          em;
+          fr: sets the column or row to a fraction of the available space
+          auto: sets the column or row to the width or height of its content automatically
+          %: adjusts the column or row to the percent width of its container
+
+          grid-template-columns: auto 50px 10% 2fr 1fr;
+
+all the properties that have been discussed are for grid containers.
+
+Grid-column property:   is the first one for use on the grid items themselves
+                        These lines are numbered starting with 1 at the top left corner of the grid and move
+                        right for columns and down for rows, counting upward.
+
+      .item5 {
+        grid-column: 2 / 4;
+        grid-row: 2 / 4;    you can make items consume multiple rows just like you can with columns
+      }
+
+Justify-self:   In CSS Grid, the content of each item is located in a box which is referred to as a cell.
+                You can align the content's position within its cell horizontally using the justify-self property on a grid item.
+                By default, this property has a value of stretch, which will make the content fill the whole width of the cell.
+                This CSS Grid property accepts other values as well:
+
+                start: aligns the content at the left of the cell,
+                center: aligns the content in the center of the cell,
+                end: aligns the content at the right of the cell.
+
+Align-self:     align an item vertically. This property accepts all of the same values as justify-self
+
+justify-items:  Groups justify-self & align-self. This property can accept all the same values, but t will move all the items in our grid
+
+Grid Area Template: You can group cells of your grid together into an area and give the area a custom name
+                    The code above merges the top three cells together into an area named header, the bottom three cells into a footer area,
+                     and it makes two areas in the middle row; advert and content. Note: Every word in the code represents
+                     a cell and every pair of quotation marks represent a row.
+                     In addition to custom labels, you can use a period (.) to designate an empty cell in the grid.
+
+                    grid-template-areas:
+                      "header header header"
+                      "advert content content"
+                      "footer footer footer";
+
+Grid-area Property: After creating an area's template for your grid container, you can place an item in your custom area
+
+                    .item1 {
+                      grid-area: header;
+                    }
+
+                    if your grid doesn't have an areas template to reference, you can create an area on the fly for an item to be placed like this
+
+                    item1 { grid-area: 1/1/2/4; }
+
+                    grid-area: horizontal line to start at / vertical line to start at / horizontal line to end at / vertical line to end at;
+                                in the example will consume the rows between lines 1 and 2, and the columns between lines 1 and 4.
+
+Repeat Function:  specify the number of times you want your column or row to be repeated, followed by a comma and the value you want to repeat.
+
+                  grid-template-columns: repeat(2, 1fr 50px) 20px;      traslates to: grid-template-columns: 1fr 50px 1fr 50px 20px;
+
+Minmax Function:  It's used to limit the size of items when the grid container changes size.
+
+                  grid-template-columns: 100px minmax(50px, 200px);
+
+                  grid-template-columns is set to create two columns; the first is 100px wide,
+                  and the second has the minimum width of 50px and the maximum width of 200px.
+
+Auto-fill Function: This allows you to automatically insert as many rows or columns of your desired size as possible depending on the size
+                    of the container. You can create flexible layouts when combining auto-fill with minmax, like this:
+
+                    repeat(auto-fill, minmax(60px, 1fr));
+
+Auto-fit Function:  The only difference with auto-fill is that when the container's size exceeds the size of all the items combined,
+                    auto-fill keeps inserting empty rows or columns and pushes your items to the side,
+                    while auto-fit collapses those empty rows or columns and stretches your items to fit the size of the container.
+
+
+Use Media Queries to Create Responsive Layouts:     Ejemplos en otros archivos de codigo CSS Grid 1
+
+Create Grids within Grids:          Ejemplos en otros archivos de codigo CSS Grid 2

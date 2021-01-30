@@ -1,0 +1,30 @@
+Responsive Web Design Principles
+
+Media Query: are a new technique introduced in CSS3 that change the presentation of content based on different viewport sizes.
+
+              @media (max-width: 100px) {
+              /* CSS Rules */
+                  {
+                    font-size: 10px;
+                  }
+              }
+
+Image Responsive:
+                  img {
+                    max-width: 100%;
+                    height: auto;
+                  }
+
+Retina Image (for Higher Resolution Displays):
+
+                  <style>
+                    img { height: 250px; width: 250px; }
+                  </style>
+                  <img src="coolPic500x500" alt="A most excellent picture">
+
+Typography Responsive:    body { width: 30vw; }
+
+                    vw (viewport width): 10vw would be 10% of the viewport's width.
+                    vh (viewport height): 3vh would be 3% of the viewport's height.
+                    vmin (viewport minimum): 70vmin would be 70% of the viewport's smaller dimension (height or width).
+                    vmax (viewport maximum): 100vmax would be 100% of the viewport's bigger dimension (height or width).

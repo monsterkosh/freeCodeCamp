@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Introduction to Bootstrap</title>
+    <style media="screen">
+
+    body {
+      background-color: rgb(235, 238, 244);
+    }
+
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 12rem;
+      margin-right: auto;
+      margin-left: auto;
+      }
+
+    pre {
+      overflow: auto;
+      width: auto;
+      background-color: lightgrey;
+    }
+
+    h1 {
+
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: lighter;
+    }
+
+    header {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    #navbar {
+      position: fixed;
+      height: 100%; /* Full-height: remove this if you want "auto" height */
+      width: 230px; /* Set the width of the sidebar */
+      z-index: 1; /* Stay on top */
+      top: 0; /* Stay at the top */
+      left: 0;
+      background-color: #111; /* Black */
+      overflow-x: hidden; /* Disable horizontal scroll */
+      padding-top: 20px;
+    }
+
+      #navbar a {
+          padding: 6px 8px 6px 16px;
+          text-decoration: none;
+          font-size: 25px;
+          color: #818181;
+          display: block;
+        }
+
+      #navbar a:hover {
+          color: RebeccaPurple;
+        }
+
+        .main {
+          margin-left: 230px; /* Same as the width of the sidebar */
+          padding: 0px 10px;
+        }
+
+        .pink {
+          color: RebeccaPurple;
+        }
+
+        .foot {
+          font-size: 14px;
+          text-align: right;
+        }
+
+        @media screen and (max-height: 450px) {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+          }
+
+    </style>
+
+  </head>
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <div class="main">
+      <img class"img" src="https://www.tutorialrepublic.com/lib/images/bootstrap-illustration.png" alt="bootstrap banner">
+    <h1>Introduction to Bootstrap</h1>
+    <h2>Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with BootstrapCDN and a template starter page.</h2>
+    </div>
+
+    <main id="main-doc">
+
+      <nav id="navbar">
+        <header>
+          Navigation Bar
+        </header>
+          <a class="nav-link" href="#quick_start">Quick start</a><br>
+          <a class="nav-link" href="#css">CSS</a><br>
+          <a class="nav-link" href="#js">JS</a><br>
+          <a class="nav-link" href="#starter_template">Starter template</a><br>
+          <a class="nav-link" href="#important_globals">Important globals</a><br>
+          <a class="nav-link" href="#html5_doctype">HTML5 doctype </a><br>
+          <a class="nav-link" href="#responsive_meta_tag">Responsive meta tag</a><br>
+          <a class="nav-link" href="#box_sizing">Box sizing</a><br>
+          <a class="nav-link" href="#reboot">Reboot</a>
+      </nav>
+      <br>
+      <br>
+      <br>
+
+      <div class="main">
+      <section id="quick_start" class="main-section">
+        <header>Quick start</header>
+        <p>Looking to quickly add Bootstrap to your project? Use BootstrapCDN, provided for free by the folks at StackPath. Using a package manager or need to download the source files? <a href="https://getbootstrap.com/docs/4.1/getting-started/download/">Head to the downloads page.</a></p>
+      </section>
+      <br>
+
+      <section id="css" class="main-section">
+        <header>CSS</header>
+        <p>Copy-paste the stylesheet style <b class="pink">&lt;link&gt;</b> into your <b class="pink">&lt;head&gt;</b> before all other stylesheets to load our CSS.</p>
+          <blockquote >
+          <pre>
+            <code>
+         <xmp>
+           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+         </xmp>
+            </code>
+          </pre>
+        </blockquote>
+      </section>
+      <br>
+
+        <section id="js" class="main-section">
+          <header>JS</header>
+          <p>Many of our components require the use of JavaScript to function. Specifically, they require jQuery, Popper.js, and our own JavaScript plugins.</p>
+          <p>Place the following <b class="pink">&lt;script&gt;s</b> near the end of your pages, right before the closing <b class="pink">&lt;body&gt;</b> tag, to enable them. jQuery must come first, then Popper.js, and then our JavaScript plugins.
+          </p>
+          <br>
+          <ul>
+            <li>We use jQuery’s slim build, but the full version is also supported.</li>
+          </ul>
+          <blockquote >
+          <pre>
+            <code>
+              <xmp>
+              <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+              <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+            </xmp>
+              </code>
+            </pre>
+          </blockquote>
+          <ul>
+            <li>Curious which components explicitly require jQuery, our JS, and Popper.js? Click the show components link below. If you’re at all unsure about the general page structure, keep reading for an example page template.</li>
+            <br>
+            <li>Our bootstrap.bundle.js and bootstrap.bundle.min.js include Popper, but not jQuery. For more information about what’s included in Bootstrap, please see our <a href="https://getbootstrap.com/docs/4.1/getting-started/contents/#precompiled-bootstrap">contents section.</a></li>
+          </ul>
+          </section>
+          <br>
+
+          <section id="starter_template" class="main-section">
+            <header>Starter template</header>
+            <p>Be sure to have your pages set up with the latest design and development standards. That means using an HTML5 doctype and including a viewport meta tag for proper responsive behaviors. Put it all together and your pages should look like this:</p>
+            <blockquote >
+            <pre>
+              <code>
+                <xmp>
+                <!doctype html>
+                <html lang="en" class="main-section">
+                  <head>
+                    <!-- Required meta tags -->
+                    <meta charset="utf-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+                    <!-- Bootstrap CSS -->
+                    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+                    <title>Hello, world!</title>
+                  </head>
+                  <body>
+                    <h1>Hello, world!</h1>
+
+                    <!-- Optional JavaScript -->
+                    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+                  </body>
+                </html>
+                </xmp>
+              </code>
+            </pre>
+          </blockquote >
+          <ul>
+            <li>That’s all you need for overall page requirements.</li>
+          </ul>
+          </section>
+          <br>
+
+          <section id="important_globals" class="main-section">
+            <header>Important Globals</header>
+            <p>Bootstrap employs a handful of important global styles and settings that you’ll need to be aware of when using it, all of which are almost exclusively geared towards the normalization of cross browser styles. Let’s dive in.</p>
+          </section>
+          <br>
+          <section id="html5_doctype" class="main-section">
+            <header>HTML5 doctype</header>
+            <p>Bootstrap requires the use of the HTML5 doctype. Without it, you’ll see some funky incomplete styling, but including it shouldn’t cause any considerable hiccups.</p>
+            <blockquote>
+              <pre>
+                <code>
+                  <xmp>
+                    <!doctype html>
+                    <html lang="en">
+                      ...
+                    </html>
+                  </xmp>
+                </code>
+              </pre>
+            </blockquote>
+            </section>
+            <br>
+
+            <section id="responsive_meta_tag" class="main-section">
+              <header>Responsive meta tag</header>
+                <p>Bootstrap is developed mobile first, a strategy in which we optimize code for mobile devices first and then scale up components as necessary using CSS media queries. To ensure proper rendering and touch zooming for all devices, add the responsive viewport meta tag to your <b class="pink">&lt;head></b>.</p>
+                <blockquote>
+                  <pre>
+                    <code>
+                      <xmp>
+                        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+                      </xmp>
+                    </code>
+                  </pre>
+                </blockquote>
+            </section>
+            <br>
+
+            <section id="box_sizing" class="main-section">
+              <header>Box sizing</header>
+              <p>For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box. This ensures padding does not affect the final computed width of an element, but it can cause problems with some third party software like Google Maps and Google Custom Search Engine.</p>
+              <ul>
+                <li>On the rare occasion you need to override it, use something like the following:</li>
+              </ul>
+              <blockquote>
+                <pre>
+                  <code>
+                    <xmp>
+                      .selector-for-some-widget {
+                          box-sizing: content-box;
+                        }
+                    </xmp>
+                  </code>
+                </pre>
+              </blockquote>
+                <ul>
+                  <li>With the above snippet, nested elements—including generated content via ::before and ::after—will all inherit the specified box-sizing for that .selector-for-some-widget.</li>
+                </ul>
+            </section>
+            <br>
+
+            <section id="reboot" class="main-section">
+              <header>Reboot</header>
+              <p>For improved cross-browser rendering, we use Reboot to correct inconsistencies across browsers and devices while providing slightly more opinionated resets to common HTML elements.</p>
+            </section>
+            <br>
+            <br>
+            <br>
+            <p class="foot pink">Made by Emiliano Kosh</p>
+          </div>
+
+
+    </main>
+  </body>
+</html>

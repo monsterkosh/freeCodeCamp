@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+
+    <style>
+
+      #header-img {
+          object-fit: cover;
+          width: 100%;
+          height: 22rem;
+          width: 100%;
+          margin-right: auto;
+          margin-left: auto;
+      }
+
+      .container {
+        position: relative;
+      }
+
+      .text-block {
+      }
+
+      #title {
+        position: absolute;
+        bottom: 1px;
+        left: 20px;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+
+      #description {
+        position: absolute;
+        bottom: 8px;
+        left: 240px;
+        color: black;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 18px;
+      }
+
+      .sub {
+        float: center;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      #caracteristicas{
+        margin: auto;
+        width: 70%;
+        padding-top: 30px;
+      }
+
+      .logo {
+        width: 120px;
+        float:left;
+      }
+
+      .logo-text {
+        padding-top: 50px;
+        margin-left: 15px;
+        display: block;
+        margin: 2px 0 0 0;
+        font-size: 18px;
+      }
+
+      #video-div {
+        margin: 0 auto;
+        width: 400px;
+        padding-top: 200px;
+      }
+
+      .column {
+        float: left;
+        width: 33.33%;
+      }
+
+      #header {
+        position: fixed;
+        top: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        background-color: white;
+      }
+
+      @media (max-width: 500x) {
+        body {
+          flex-wrap: wrap;
+          }
+        }
+
+      body {
+        padding-top: 400px;
+      }
+
+      .nav-link {
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+
+      #menu-img {
+        width: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 400px;
+        max-width: 600px;
+      }
+
+
+    </style>
+
+    <title>Julula Cocina</title>
+
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <header id="header">
+
+    <div class="container">
+
+      <nav id="nav-bar">
+        <a class="nav-link" href="#caract">Caracteristicas</a> |
+        <a class="nav-link" href="#prep">Preparacion</a> |
+        <a class="nav-link" href="#menu">Menus</a>
+          </nav>
+
+  <img id="header-img" src="https://c.wallhere.com/photos/5b/07/vegetables_fruit_rice_seasonings_allsorts_macaroni-684721.jpg!d" alt="banner condimentos">
+    <div class="text-block">
+      <h1 id="title">Julula Cocina </h1>
+      <p id="description"> Cocina casera saludable</p>
+    </div>
+    </div>
+
+</header>
+
+    <section id="caract">
+    <div class="row">
+  <div class="column"><img class="logo" src="https://cdn.clipart.email/14a2369bc812427a7769b6b5858e7c0b_hat-chef-logo-and-symbols-vector-template-free-logo-design-_960-960.jpeg" alt="chef logo">
+        <p class="logo-text">Hechas con productos frescos del dia</p></div>
+
+  <div class="column"><img class="logo" src="https://cdn.clipart.email/14a2369bc812427a7769b6b5858e7c0b_hat-chef-logo-and-symbols-vector-template-free-logo-design-_960-960.jpeg" alt="chef logo">
+        <p class="logo-text">Saludable para una dieta balanceada</p> </div>
+
+  <div class="column"><img class="logo" src="https://cdn.clipart.email/14a2369bc812427a7769b6b5858e7c0b_hat-chef-logo-and-symbols-vector-template-free-logo-design-_960-960.jpeg" alt="chef logo">
+        <p class="logo-text">Economicas y deliciosas</p></div>
+</div>
+    </section>
+
+  <br>
+  <br>
+  <br>
+
+  <section id="prep">
+
+  <div id="video-div">
+    <iframe
+    id="video"
+    width="420"
+    height="315"
+    src="https://www.youtube.com/embed/DgP9lAwnj2A?&loop=1&value=1">
+    </iframe>
+
+  </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+    <section id="menu">
+    <img id="menu-img" src="https://pbs.twimg.com/media/Dkem3iMX4AEc4q-?format=jpg" alt="Menu de viandas">
+        </section>
+
+        <br>
+        <br>
+        <br>
+
+        <div class="sub">
+          <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+          <p>Solicita nuestras viandas <input type="email" id="email" name="email" placeholder="Ingresa aqui tu email" required></p>
+          <input type="submit" name="submit" value="Enviar" class="submit-button" id="submit">
+              </form>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+      <p style="text-align:right;font-size: 10px"> Hecho por: Emiliano Kosh</p>
+
+
+    </body>
+  </html>

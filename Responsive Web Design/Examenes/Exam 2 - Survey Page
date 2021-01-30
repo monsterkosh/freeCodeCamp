@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <style media="screen">
+
+    #title {
+      font-size: 35px;
+      font-family: 'Lobster', cursive;
+      color: white;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+    }
+
+    body {
+      background-image: url("https://i2.wp.com/www.csscodelab.com/wp-content/uploads/2019/11/stripe-hero-background-effect-html-css.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      background-position: center;
+      width: 500px;
+      margin:auto;
+      line-height:1.4;
+    }
+
+    #description {
+      font-size: 16px;
+    }
+
+
+    form {
+      font-size: 14px;
+      width: 100%;
+      background: rgb(1, 5, 5, 0.2);
+      padding: 2.5rem 2.5rem;
+      border-radius: 2rem;
+      width: 500px;
+      margin: auto;
+    }
+
+    .submit-button {
+      width: 20%;
+      background: white;
+      color: black;
+      padding: 0.35rem;
+      border-radius: 60px;
+      cursor: pointer;
+    }
+
+    .form-inputs {
+      display: block;
+      width: 80%;
+      height: 2rem;
+      padding: 0.25rem 0.75rem;
+      border: 1px solid black;
+      border-radius: 2rem;
+    }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 id="title"> freeCodeCamp Survey Page</h1>
+      <p id="description"> tell us about yourself and sign up for more free courses</p>
+      <br>
+      <br>
+      </header>
+          <form id="survey-form">
+            <br>
+            <label form="name" id="name-label">Name:</label>
+            <br>
+             <input id="name" type="text" name="name" placeholder="Enter your full name"  class="form-inputs" required </input>
+             <br>
+             <br>
+             <label for="email" id="email-label">Email:</label>
+             <br>
+             <input id="email" type="email" name="email" placeholder="enter@youremail.com" class="form-inputs" required ></input>
+             <br>
+             <br>
+             <label for="number" id="number-label">Age:</label>
+             <br>
+             <input id="number" type="number" name="number" placeholder="Enter your age" min="16" max="65" class="form-inputs" required></input>
+             <br>
+             <br>
+             <label for="dropdown" id="courses"> Wich lenguage would you like to be added to freeCodeCamp ?</label>
+             <br>
+             <select id="dropdown" class="form-inputs" name="">
+               <option value="Java">Java</option>
+               <option value="Python">Python</option>
+               <option value="PHP">PHP</option>
+               <option value="Go">Go (Golang)</option>
+               </select>
+               <br>
+               <br>
+               <label id="opinion" for="opinion">How satisfied are you with our courses ?</label>
+               <br>
+               <input id="opinion" type="radio" name="satisfied" value="alot">
+               <label for="opinion"> Really satisfied</label>
+               <br>
+               <input id="opinion" type="radio" name="satisfied" value="enough">
+               <label for="opinion"> Satisfied </label>
+               <br>
+               <input id="opinion" type="radio" name="satisfied" value="kinda">
+               <label for="opinion"> Kind of Satisfied </label>
+               <br>
+               <input id="opinion" type="radio" name="satisfied" value="notenough">
+               <label for="opinion"> It could be better </label>
+               <br>
+               <input id="opinion" type="radio" name="satisfied" value="bad">
+               <label for="opinion"> Not satisfied at all</label>
+               <br>
+               <br>
+               <label for="like">What did you like the most about freeCodeCamp ?</label>
+               <br>
+               <input id="checkbox" type="checkbox" name="like" value="free">
+               <label for="checkbox"> Its free </label>
+               <br>
+               <input id="checkbox" type="checkbox" name="like" value="good">
+               <label for="checkbox"> Good content </label>
+               <br>
+               <input id="checkbox" type="checkbox" name="like" value="easy">
+               <label for="checkbox"> Its easy to follow </label>
+               <br>
+               <input id="checkbox" type="checkbox" name="like" value="free">
+               <label for="checkbox"> Other <input type="text" name="another" placeholder="Other" ></label>
+               <br>
+               <br>
+               <label for="textarea"> Tell us how we can inprove:</label>
+               <br>
+               <textarea id="textarea" name="inprove" rows="3" cols="50" placeholder="..." ></textarea>
+               <br>
+               <br>
+               <input id="submit" type="submit" name="Submit" value="Submit" class="submit-button">
+               <br>
+               <br>
+          </form>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+freeCodeCamp - Applied Accessibility
+
+        <img src="importantLogo.jpeg" alt="Company logo">
+
+ELEMETNS: main, header, footer, nav, article, and section, among others.
+
+ - if a book is the article, then each chapter is a section. When there's no relationship between groups of content, then use a div.
+ - head element, which contains the page's title, meta information, etc.
+ - header tag. It's used to wrap introductory information or navigation links for its parent tag
+ - The nav tag is meant to wrap around the main navigation links in your page.
+ - footer element has a built-in landmark feature that allows assistive devices to quickly navigate to it.
+
+ AUDIO:
+           <audio id="meowClip" controls>
+            <source src="audio/meow.mp3" type="audio/mpeg" />
+            <source src="audio/meow.ogg" type="audio/ogg" />
+          </audio>
+
+FIGURE:
+          <figure>
+            <img src="roundhouseDestruction.jpeg" alt="Photo of Camper Cat executing a roundhouse kick">
+            <br>
+            <figcaption>
+              Master Camper Cat demonstrates proper form of a roundhouse kick.
+            </figcaption>
+          </figure>
+
+FORM:     Forms often include the input field, which can be used to create several different form controls.
+          The type attribute on this element indicates what kind of input will be created.
+
+INPUT TYPES: button, checkbox, color, date, email, file, image, number, password, radio, search, submit, tex, time, etc
+
+          <form>
+            <label for="email">Enter Email:</label>
+            <input type="text" id="email" name="email">
+
+            <fieldset>          (radio butons para preguntar cosas en el form)
+              <legend>What level ninja are you?</legend>
+              <input id="newbie" type="radio" name="levels" value="newbie">
+              <label for="newbie">Newbie Kitten</label><br>
+              <input id="intermediate" type="radio" name="levels" value="intermediate">
+              <label for="intermediate">Developing Student</label><br>
+              <input id="master" type="radio" name="levels" value="master">
+              <label for="master">Master</label>
+            </fieldset>
+
+            <input type="submit" name="submit" value="Submit">
+
+          </form>
+
+TIME DATETIME:    <p>The best day to host the vaunted Mortal Kombat tournament is
+                  <time datetime= "2016-09-15">Thursday, September 15<sup>th</sup></time>. May the best ninja win!</p>
+
+
+Make Elements Only Visible to a Screen Reader by Using Custom CSS:
+
+              .sr-only {
+                position: absolute;
+                left: -10000px;
+                width: 1px;
+                height: 1px;
+                top: auto;
+                overflow: hidden;
+              }
+
+Descriptive Link Text    <a href="">Click here</a>
+
+Accesskey:     <h2><a accesskey= "c" id="second" href="#">Is Chuck Norris a Cat Person?</a></h2>
+
+Tabindex:      <p tabindex="0">Instructions: Fill in ALL your information then click <b>Submit</b></p>
+
+              <div tabindex="1">I get keyboard focus, and I get it first!</div>
+
+              <div tabindex="2">I get keyboard focus, and I get it second!</div>

@@ -1,0 +1,122 @@
+freeCodeCamp - CSS
+
+CSS Sirve para controlar:
+		color 		<h2 style="color: blue;">CatPhotoApp</h2>
+		fonts       font-size: 30px;
+		positioning
+		spacing
+		sizing
+		decorations
+		transitions
+
+HIERARCHY: From bottom to top. ID overrides classes, infinite styles declared in elements overrides ids and classes. "!important" overrides all. 
+
+
+CSS CLASS STYLE ELEMENTS:		<style>
+  									h2 {
+    									color: red;   				(tambien se puede usar HEX - color: #000000;)
+    									font-size: 30px;
+    									font-family: Lobster, sans-serif;
+    									background-color: green; 	(tambien se puede usar rgb - rgb(255, 165, 0) )
+  									}
+
+  									.blue-text {
+   										color: blue;
+   										font-size: 30px;
+   										font-family: sans-serif;
+ 								 	}
+
+ 								   .larger-image {
+    									width: 500px;
+    									border-radius: 10px;  		(tambien se puede usar "50%")
+  									}
+
+  									.thin-red-border {
+   										border-color: red;
+    									border-width: 5px;
+    									border-style: solid;
+  									}
+
+  									  .red-box {
+									    background-color: crimson;
+									    color: #fff;
+									    text-align: center;
+									    padding-top: 40px;
+									    padding-right: 20px;
+									    padding-bottom: 10px;
+									    padding-left: 30px;
+									    	( CLOCKWISE PADDING: padding: 40px 20px 10px 30px; )  TOP RIGHT LEFT BOTTOM;
+									    margin-top: 40px;
+									    margin-right: 20px;
+									    margin-bottom: 20px;
+									    margin-left: 40px;
+									    	( CLOCKWISE MARGIN: margin: 10px 20px 10px 20px; )  TOP RIGHT LEFT BOTTOM;
+									    border-style: solid;
+									    border-color: black;
+									    border-width: 5px;
+									  }
+
+								</style>
+
+		SE USA DE LA SIG FORMA: 		<h2 class="red-text">CatPhotoApp</h2>
+
+IMPORT A GOOGLE FONT: 	Poner antes de <style> <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+						Despues usar: font-family: Lobster;
+
+ID: In addition to classes, each HTML element can also have an id attribute. Don't give more than one element the same id attribute.
+	An id also has a higher specificity (importance) than a class
+	You always reference ids by putting a # in front of their names.
+	<h2 id="cat-photo-app">
+
+	#cat-photo-element {
+	  background-color: green;
+	}
+
+ATTRIBUTE SELECTOR:	[attribute=value]  Se usa en <style>
+					[type='checkbox'] {
+  						margin-top: 10px;
+  						margin-bottom: 15;
+					}	
+
+ABSOLUTE UNITS:		Absolute units tie to physical units of length. For example, in and mm refer to inches and millimeters, respectively. 
+					Absolute length units approximate the actual measurement on a screen, but there are some differences depending on a screen's resolution.
+
+RELATIVE UNITS: 	Relative units, such as em or rem, are relative to another length value. For example, em is based on the size of an element's font. 
+					If you use it to set the font-size property itself, it's relative to the parent's font-size.
+
+CREATE A CSS VARIABLE: 		--nombreDeVariable: valor;
+
+USE CREATED CSS VARIABLE: 	background: var(--nombreDeVariable);
+
+FALLBACK VARIABLE: 			background: var(--nombreDeVariable, black); 		(lo mismo que con las fonts)
+
+BROWSER FALLBACK: (color red)
+					  .red-box {
+    					background: red;
+					    background: var(--red-color);
+					  }
+
+INHERIT CSS VARIABLES: 	(HEREDABLES)To make use of inheritance, CSS variables are often defined in the :root element.
+						:root is a pseudo-class selector that matches the root element of the document, usually the html element. By creating your variables in :root, they will be available globally and can be accessed from any other selector in the style sheet.
+						When you create your variables in :root they will set the value of that variable for the whole page. 
+						You can then over-write these variables by setting them again within a specific element.
+
+MEDIA QUERY: Media queries is a feature of CSS 3 allowing content rendering to adapt to different conditions such as screen resolution
+
+			  @media (max-width: 350px) {
+			    :root {
+			      --penguin-size: 200px;
+			      --penguin-skin: black;
+			    }
+			  }
+
+
+
+
+
+
+
+
+
+
+

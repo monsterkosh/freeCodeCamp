@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+          <style media="screen">
+          body {
+          background-color: black;
+            }
+            h1 {
+          color: white;
+          text-align: center;
+          font-size: 24px;
+            }
+            h2 {
+              font-size: 12px;
+              color: white;
+              text-align: center;
+            }
+            h3 {
+              font-size: 18px;
+              color: white;
+              text-align: center;
+            }
+            p1 {
+              color:white;
+              font-size: 10px;
+            }
+          .records {
+              color: white;
+              font-size: 12px;
+              text-align: left;
+            }
+          #image {
+            max-width: 700px;
+            width: 75%;
+            display: block;
+            margin: 5% auto 3% auto;
+            border-radius: 15%;
+            max-width: 80%;
+          }
+          .controles {
+            margin-top: 5%;
+          }
+
+      </style>
+
+  </head>
+  <body>
+
+    <div id="main">
+    <h1 id="title">Racing Club de Avellaneda tribute page for freeCodeCamp.org</h1>
+    <div id="img-div">
+      <img id="image" src="https://i.ytimg.com/vi/K1K4xWptGY0/maxresdefault.jpg">
+      <div id="img-caption">
+          <h2> Racing Club de Avellaneda - Football Club from Argentina </h2>
+      </div>
+          <p1> Racing Club, conocido como Racing Club de Avellaneda o simplemente Racing, es una entidad deportiva oriunda de Argentina, fundada el 25 de marzo de 1903, ubicada en la Ciudad de Avellaneda, Provincia de Buenos Aires.14​ Si bien su principal actividad deportiva es el fútbol masculino profesional, que milita en la Primera División, también se practican otros deportes profesionales como fútbol femenino, básquet, futsal y hockey, mientras que tenis, boxeo, vóley, handball, judo, patín artístico, aikido, gimnasia artística, taekwondo, muay thai, sipalki-do, fútbol playa, atletismo, natación y saltos ornamentales son deportes amateur.15​16​</p1>
+    </div>
+    <div align="center" class="controles">
+      <audio controls>
+      <source src="https://www.fanchants.com/media/chants/full/download/come-acade-fanchants-free.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="tribute-info">
+      <article>
+      <h3> Records </h3>
+      <ul class="records">
+          <li>Fue el primer equipo argentino de fútbol formado íntegramente por criollos.270​</li>
+          <li>Es el 12º equipo argentino más antiguo y el 2º en fundarse de los denominados cinco grandes.271​​</li>
+          <li>Fue el primer equipo campeón en Argentina en utilizar numeración en su espalda en 1949.272​​</li>
+          <li>Es el máximo ganador argentino de la era amateur: 9 campeonatos nacionales y 10 copas nacionales.273​​</li>
+          <li>Es el primero de los cinco grandes en ganar un título de Primera División: en 1913.274​​</li>
+          <li>Es el primero de los cinco grandes en ganar una copa nacional: la Copa de Honor en 1912.​</li>
+          <li>Es el primero de los cinco grandes en ganar un bicampeonato: en 1913 y 1914.275​​</li>
+          <li>Es el primero de los cinco grandes en ganar un tricampeonato: 1913 a 1915.275​​</li>
+          <li>Es el único equipo argentino en la historia en ganar cuatro títulos oficiales consecutivos: 1913 a 1916.276​275​​</li>
+          <li>Es el único equipo argentino en la historia en ganar cinco títulos oficiales consecutivos: 1913 a 1917.276​275​​</li>
+          <li>Es el único equipo argentino en la historia en ganar seis títulos oficiales consecutivos: 1913 a 1918.276​275​​</li>
+          <li>Es el único equipo argentino en la historia en ganar siete títulos oficiales consecutivos: 1913 a 1919.276​275​​</li>
+          <li>El récord logrado al obtener siete títulos oficiales consecutivos, es la mayor cantidad de títulos conseguidos seguidos en la historia del fútbol nacional.276​275​​</li>
+          <li>En 1919 se convirtió en el primer heptacampeón de la historia del fútbol mundial. Celtic FC de Escocia había sido el primer hexacampeón en 1910.​</li>
+          <li>Es uno de los 4 únicos equipos en el mundo (junto con la Juventus, Bayern Múnich y el Olympique de Lyon) en haber logrado salir heptacampeón en Federaciones campeonas del mundo.277​278​279​280​​</li>
+          <li>No solo es el único equipo del país, sino también es el único equipo del continente en haber salido heptacampeón en toda la historia.​</li>
+          <li>Es uno de los dos únicos equipos argentinos que más veces terminó un torneo invicto: 5 en 1914, 1915, 1918, 1919 y 1925.281​​</li>
+          <li>Es uno de los 3 clubes (junto con Boca y River) en haber sido en algún momento el más ganador del país, y el segundo en cantidad de veces.​</li>
+          <li>Durante 6 décadas (de 1920 a 1970), Racing Club fue el equipo Argentino más ganador de todos en cantidad de copas y campeonatos.​</li>
+          <li>Es el único equipo argentino en la historia que salió campeón ganando todos sus partidos con un total de 26 puntos en 1919.​</li>
+          <li>Es el club argentino que más años consecutivos ganó títulos oficiales en la historia: 8 años de 1912-1919.​</li>
+          <li>Es el primer equipo argentino en conseguir un tricampeonato local en el profesionalismo: 1949, 1950 y 1951.282​​</li>
+          <li>Es el equipo argentino con más victorias consecutivas de la historia: 28 entre 1918 y 1919.​</li>
+          <li>Es el equipo con la segunda mayor racha invicta del fútbol argentino profesional, con 39 partidos sin perder en 1966.​</li>
+          <li>Es el equipo con el arquero con mayor cantidad de minutos invictos en la historia del fútbol argentino: Marcos Croce con 1077 minutos sin recibir goles.237​​</li>
+          <li>Es el equipo con el jugador más veterano en salir goleador del fútbol argentino: Lisandro López con 17 goles en la Superliga 2018/19 a los 36 años.259​​</li>
+          <li>Es el campeón argentino con menor promedio de goles en contra en un torneo (0,20). Recibió 4 goles en 20 partidos, en 1917.​</li>
+          <li>Es el campeón argentino con mayor diferencia de gol de la historia con 95 goles a favor y 5 goles en contra en 24 partidos, en 1915.​</li>
+          <li>Es el equipo con mejor posicionamiento en años consecutivos en el profesionalismo: 1°, 1°, 1°, 2° y 3°, entre 1949 y 1953.​</li>
+          <li>Es el equipo con mejor posicionamiento en años consecutivos en el amateurismo: 3°, 1°, 1°, 1°, 1°, 1°, 1°, 1°, 2° y 1°, entre 1912 y 1921.​</li>
+          <li>Es el primer campeón de la Copa Ibarguren.​</li>
+          <li>Es el primer campeón de la Copa Aldao.​</li>
+          <li>Es el primer campeón de la Copa Beccar Varela.​</li>
+          <li>Es el primer campeón del Trofeo de Campeones de la Superliga Argentina.​</li>
+          <li>Es el máximo ganador de la Copa de Honor en 4 oportunidades (1912, 1913, 1915, 1917).​</li>
+          <li>Es el máximo ganador de la Copa Ibarguren con 5 conquistas (1913, 1914, 1916, 1917, 1918).​</li>
+          <li>Es el segundo equipo en ganar la Copa de Competencia Británica en 1945. Tan solo tres equipos en la historia lo lograron.​</li>
+          <li>Es el tercer equipo argentino con mayor cantidad de campeonatos nacionales en la historia del fútbol argentino (18).​</li>
+          <li>Es el segundo equipo en ganar la Superliga Argentina en 2019.​</li>
+          <li>Es uno de los 2 equipos argentinos con mayor cantidad de copas nacionales obtenidas de la historia (13).283​284​285​​</li>
+          <li>Es uno de los 4 equipos argentinos con mayor cantidad de títulos oficiales conseguidos en la historia. Entre torneos y copas nacionales e internacionales suma 36.​</li>
+          <li>Es el único equipo argentino en marcar 24 goles en tres partidos consecutivos: 8 a 2 a Platense, 8 a 2 a Estudiantes de La Plata y 8 a 1 a Lanús en 1938.​</li>
+          <li>Es el campeón argentino con mejor puntaje en toda la historia: 61 puntos en 1966.286​​</li>
+          <li>Es el campeón con mayor diferencia de gol en el fútbol argentino, con 95 goles a favor y 5 goles en contra en 24 partidos (1915).​</li>
+          <li>Es el tercer equipo menos goleado en la historia de los torneos cortos con tan solo 8 goles en contra en el Apertura 2011.​</li>
+          <li>Es el primer campeón del profesionalismo Argentino que se mantuvo primero desde la primera hasta la última fecha en 1961.287​​</li>
+          <li>Es el participante de la serie argentina de penales más larga: perdió 20 a 19 en 44 ejecuciones en 1988.288​​</li>
+          <li>Es el primer equipo argentino en ganar la Copa Intercontinental: en 1967.
+          <li>Es el equipo argentino con más empates consecutivos en la historia: 10 en 1990.​</li>
+          <li>Es el primer equipo del continente en ganar la Supercopa Sudamericana: en 1988.​</li>
+          <li>Es el segundo equipo argentino en ganar la Copa Libertadores: en 1967.​</li>
+          <li>Es el campeón de la Copa Libertadores de América más extensa de toda la historia: en 1967.289​​</li>
+          <li>Es el 4° club argentino que más finales internacionales disputó en toda la historia (13).​</li>
+          <li>Es el 5° equipo en la historia del fútbol internacional en salir campeón del mundo.​</li>
+          <li>Es uno de los 6 equipos argentinos que lograron ser campeones del mundo, y uno de los 28 equipos del mundo en lograrlo.​</li>
+          <li>Es el primer equipo argentino en consagrarse campeón en Brasil: en la Supercopa Sudamericana en 1988 (Belo Horizonte).​</li>
+          <li>Es el único equipo argentino y el primer equipo del continente en ganar el Trofeo Costa del Sol organizado por la Real Federación Española de Fútbol en 1968.​</li>
+          <li>Es el único equipo argentino y del continente en ganar el Trofeo Conde de Fenosa organizado por la Real Federación Española de Fútbol en 1968.​</li>
+          <li>Racing es el único equipo en tener 2 jugadores de campo que hayan atajado penales en la Primera División de Argentina: Juan Carlos Cárdenas a Roberto Gramajo contra Rosario Central (1971) y Agustín Pelletieri a Gastón Caprari contra San Martín de San Juan (2012). Tan solo 7 jugadores en la historia realizaron tal labor. Desde el año 1992 que no sucedía tal hecho.290​291​​</li>
+          <li>Es el 3° equipo con mayor índice de audiencia (rating) del fútbol argentino.109​​</li>
+          <li>Es el 3° equipo con mayor promedio de entradas vendidas por partido en la historia argentina.98​​</li>
+          <li>Es el club argentino que más veces fue primero en venta de entradas en la historia (14).​</li>
+          <li>Es el 4° equipo del continente con mayor asistencia de público en la historia de la Copa Libertadores de América.102​​</li>
+          <li>Es el único equipo argentino que llenó su estadio sin que haya algún tipo de espectáculo, en 1999, para defender al club de la quiebra.292​​</li>
+          <li>Es el único equipo argentino que llenó dos estadios al mismo tiempo, en 2001, el de Vélez y el suyo propio donde se puso una pantalla gigante, más el campo de juego (40.000 entradas en el estadio de Club Atlético Vélez Sársfield y 50.000 en su propio estadio). Además de luego, ir a festejar el campeonato obtenido (Apertura 2001) al Obelisco de Buenos Aires y sus calles cercanas.293​​</li>
+          <li>Es el único equipo argentino que a pesar de terminar último, en 2008, salió 3º en venta de entradas, sólo detrás del campeón y del 2º.294​295​​</li>
+          <li>Presentó la bandera más grande del mundo del año 1997, midiendo esta 187 x 40 metros.296​​</li>
+          <li>Presentó la bandera más grande el mundo del año 2011, midiendo esta 250 x 30 metros.297​​</li>
+      </article>
+      <aside>
+        <p1>Para mas informacion ver <a id="tribute-link" href="" target="_blank" scr=https://es.wikipedia.org/wiki/Racing_Club#L%C3%ADnea_de_tiempo>Wikipedia</p1>
+      </aside>
+
+  </div>
+  </body>
+</html>

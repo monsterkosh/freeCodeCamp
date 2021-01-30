@@ -1,0 +1,64 @@
+freeCodeCamp - HTML & HTML5 
+
+Basics
+
+INICIO: Todos los documentos empiezan con <!DOCTYPE html> ......   
+											<html> 
+												<head>
+													<link, meta, title, and style>
+												</head>
+												<body>
+													<h1 h2 p form etc>
+												</body> 
+											</html>
+
+COMMENTS: <!--   -->
+
+IMAGES: <img src="https://www.freecatphotoapp.com/your-image.jpg">
+
+LINK A EXTERNO (anchor): 	<a href="https://freecodecamp.org">this links to freecodecamp.org</a>
+
+	Nest anchor con paragraph				<p>
+  												Here's a <a target="_blank" href="http://freecodecamp.org"> link to freecodecamp.org</a> for you to follow.
+											</p>
+
+LINK A INTERNO: (misma pagina) <a href="#footer">Footer</a> 
+								<h2 id="footer">Footer</h2>
+
+PHOTO A LINK: <a href="#"><img src="https://bit.ly/fcc-running-cats" alt="Three kittens running towards the camera."></a>
+
+
+
+UNORDERED LIST: <ul>
+  					<li>milk</li>
+  					<li>cheese</li>
+				</ul>
+
+ORDERED LIST: 	<ol>
+ 				 <li>Garfield</li>
+ 				 <li>Sylvester</li>
+			 	</ol>
+
+FIELD TEXT (input): <input type="text" placeholder="Escribe aqui">
+
+FORM TO SUBMIT DATA: 	<form action="https://url-where-you-want-to-submit-form-data">
+							<input type="text" placeholder="Escribe aqui">
+							<button type="submit">this button submits the form</button>
+						</form>
+
+REQUIRED: <input type="text" required>
+
+RADIO: 
+
+		LABELS:   	<label for="outdoor"> 
+  						<input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor" checked >outdoor 
+					</label>
+					<label for="indoor"> 
+  						<input id="indoor" value="indoor" type="radio" name="indoor-outdoor">indoor 
+					</label>	
+
+		CHECKBOXES: <label for="loving">
+						<input id="loving" type="checkbox" name="personality"> Loving
+					</label>
+
+NEST MANY ELEMENTS: division element <div>   </div>

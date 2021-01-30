@@ -1,0 +1,70 @@
+freeCodeCamp - Applied Visual Design
+
+TEXT 	.text{
+			margin-right: 20px;
+			text-align: justify / center, right, left;
+			widht: 220px;
+			height: 20px;
+			font-size: 18px;
+			font-weight: 400px;
+			line-height: 25px;
+			text-decoration: underline;	
+			font-style: italic;
+			text-decoration: line-through;
+			background-color: black; #FF0000; hsl(0, 100%, 50%)
+			box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);    //    (offset-x, offset-y, blur-radius, spread-radius, color)
+			opacity: 0.4; 
+			text-transform: lowercase, uppercase, capitalize, initial, inherit, none.
+			position: relative; absolute; fixed; sticky;
+			float: left; right;
+			top: 10px;
+			right: 10px;
+			bottom; 10px;
+			left: 10px;
+			margin: auto;
+			background: linear-gradient(90deg, red, yellow, rgb(204, 204, 255));
+			repeating-linear-gradient(90deg, yellow 0px, blue 40px,  green 40px, red 80px);
+			background: url();
+			border-radius: 50%; 
+			color: red
+			transform: scale(1.1); skewX(-32deg); skewY(-23deg);
+			}
+
+			text:hover {     // Hover es cuando se pone el mouse encima
+			}
+
+			.text::before{
+			content: "";
+  			background-color: red;
+			}
+
+			.text::after{    // Pseudo elements
+			content: "";
+  			background-color: yellow;
+			}
+
+			#anim {         // o por ejemplo img:hover {
+			  animation-name: colorful;
+			  animation-duration: 3s;
+			  animation-fill-mode: forwards;
+			  animation-iteration-count: 3; (this STOPS a 3 count, can also set to infinite)
+			  animation-timing-function: ease; ease-out, ease-in; linear; cubic-bezier(0.25, 0.25, 0.75, 0.75);
+			}
+
+			@keyframes colorful {
+			  0% {
+			    background-color: blue;
+			    top: 0px;
+			  }
+			  100% {
+			    background-color: yellow;
+			    top: 50px;
+			    opacity: 0.4; 
+			  }
+			}
+
+
+		<strong> </strong>   BOLD
+		<hr> </hr>		SEPARADOR DE LINEA
+
+
